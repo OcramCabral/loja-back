@@ -30,7 +30,7 @@ E informou a "descrição" com menos de 5 caracteres
 E informou a "quantidade"
 E inforou o "preco_unitario"
 Quando entrar com essas informaçoes
-Então o produto é cadastrado
+Então o produto não é cadastrado
 
 Cenário 3.1: Usuário cadastra um produto com descrição igual 5 caracters
 Dado que o usuário deseja cadastrar um produto
@@ -57,7 +57,7 @@ E informou a "descrição", maior que 50 caracters
 E informou a "quantidade"
 E informou o "preco_unitario"
 Quando entrar com essas informaçoes
-Então é cadastrado o produto
+Então não é cadastrado o produto
 
 Cenário 4.0: Usuário cadastra um produto com quantidade menor a 1
 Dado que o usuário deseja cadastrar um produto

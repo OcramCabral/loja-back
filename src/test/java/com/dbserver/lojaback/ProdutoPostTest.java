@@ -153,7 +153,5 @@ public class ProdutoPostTest {
         request.put("quantidade", 15);
         given().contentType(ContentType.JSON).body(request.toString()).post("/produto").then().log().all().assertThat().statusCode(HttpStatus.SC_OK);
     }
-
-
-
+    
 }
